@@ -4,6 +4,7 @@ import {  View } from 'react-native';
 //import {connect} from 'react-redux';
 //import HomeScreen from "./HomeScreen.js";
 //import * as actions from '../actions';
+import FooterContent from '../General/Footer';
 import { Container, Header, Title, Content, Footer,Item,Input,List,ListItem,Badge,Thumbnail, FooterTab, Button, Left, Right, Body, Icon, Text,Card, CardItem } from 'native-base';
 
 export default class SearchTrip extends Component {
@@ -69,26 +70,7 @@ export default class SearchTrip extends Component {
 
         </Content>
         <Footer>
-         <FooterTab>
-            <Button vertical>
-               <Icon name="apps" />
-              <Text>Dashboad</Text>
-            </Button>
-            <Button badge vertical>
-             <Badge><Text>2</Text></Badge>
-              <Icon name="ios-clipboard" />
-              <Text>Todo</Text>
-            </Button>
-            <Button active badge vertical>
-              <Badge ><Text>5</Text></Badge>
-              <Icon active name="md-paper-plane" />
-              <Text>Trip</Text>
-            </Button>
-            <Button vertical>
-              <Icon name="ios-people" />
-              <Text>Gang</Text>
-            </Button>
-          </FooterTab>
+         <FooterContent/>
         </Footer>
       </Container>
     );

@@ -31,9 +31,6 @@ export default class Signup extends Component {
          <Item>
             <Input placeholder="Phone number" />
           </Item>
-        <Item>
-            <Input placeholder="" />
-          </Item>
            
           <Button full rounded>
             <Text>Sign up</Text>

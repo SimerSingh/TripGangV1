@@ -6,8 +6,7 @@ import Signup from './src/components/Login/Signup';
 import MyTrips from './src/components/Trips/MyTrips';
 import SearchDestination from './src/components/Trips/SearchDestination';
 import LandingPage from './src/components/Trips/LandingPage';
-import { DrawerNavigator } from "react-navigation";
-
+import TripDetails from './src/components/Trips/TripDetails';
 
 const App = () => (
   <NativeRouter>
@@ -17,6 +16,7 @@ const App = () => (
        <Route exact path="/myTrips" component={MyTrips}/>
        <Route exact path="/searchDestination" component={SearchDestination}/>
        <Route exact path="/landingPage" component={LandingPage}/>
+       <Route exact path="/tripDetails" component={TripDetails}/>
     </Switch>
   </NativeRouter>
 )
