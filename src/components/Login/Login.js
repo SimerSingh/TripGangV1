@@ -21,7 +21,8 @@ export default class FormExample extends Component {
           </Item>
            
           <Button full rounded style={{marginTop: 10}}>
-            <Text>Login</Text>
+            <Link to="/landingPage">
+            <Text>Login</Text></Link>
           </Button>
          
     
