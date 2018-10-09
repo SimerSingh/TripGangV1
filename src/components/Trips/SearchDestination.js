@@ -12,8 +12,8 @@ export default class SearchDestination extends Component {
       <Container>
         <Header>
           <Left>
-            <Button transparent onPress={() => this.props.navigation.navigate("DrawerOpen")}>
-              <Icon name='menu' />
+            <Button transparent onPress={() => this.props.history.goBack()}>
+            <Icon name='md-arrow-back' />
             </Button>
           </Left>
           <Body>
@@ -123,9 +123,12 @@ export default class SearchDestination extends Component {
               <Text>Todo</Text>
             </Button>
             <Button active badge vertical>
+              
               <Badge ><Text>5</Text></Badge>
-              <Icon active name="md-paper-plane" />
-              <Link to="/myTrips">
+              <Link to="/myTrips"> 
+              <Icon active name="md-paper-plane" />  
+              </Link>
+              <Link to="/myTrips">            
               <Text>Trips</Text>
               </Link>
             </Button>

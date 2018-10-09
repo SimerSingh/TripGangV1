@@ -12,8 +12,8 @@ export default class SearchTrip extends Component {
       <Container>
         <Header>
           <Left>
-            <Button transparent onPress={() => this.props.navigation.navigate("DrawerOpen")}>
-              <Icon name='menu' />
+          <Button transparent onPress={() => this.props.history.goBack()}>
+              <Icon name='md-arrow-back' />
             </Button>
           </Left>
           <Body>

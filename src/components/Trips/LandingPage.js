@@ -17,7 +17,7 @@ export default class LandingPage extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>My Trips</Title>
+            <Title>Trip Gang</Title>
           </Body>
           <Right>
             <Button transparent>
@@ -44,11 +44,14 @@ export default class LandingPage extends Component {
               <Text>Todo</Text>
             </Button>
             <Button active badge vertical>
+            <Link to="/myTrips">
               <Badge ><Text>5</Text></Badge>
-              <Icon active name="md-paper-plane" />
+              </Link> 
               <Link to="/myTrips">
+              <Icon active name="md-paper-plane" />  
+              </Link>           
               <Text>Trips</Text>
-              </Link>
+             
             </Button>
             <Button vertical>
               <Icon name="ios-people" />

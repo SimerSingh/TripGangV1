@@ -6,7 +6,7 @@ import Signup from './src/components/Login/Signup';
 import MyTrips from './src/components/Trips/MyTrips';
 import SearchDestination from './src/components/Trips/SearchDestination';
 import LandingPage from './src/components/Trips/LandingPage';
-
+import { DrawerNavigator } from "react-navigation";
 
 
 const App = () => (
